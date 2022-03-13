@@ -6,4 +6,3 @@ while (roastGiven < 7) {
     console.log(roastGiven);
 
 }
-

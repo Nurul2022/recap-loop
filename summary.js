@@ -1,4 +1,4 @@
-// basic while loop 
+/* // basic while loop 
 var i = 1; 
 while(i <= 7){
     console.log(i);
@@ -8,4 +8,17 @@ while(i <= 7){
 // basic for loop 
 for (var i = 1; i <= 7; i++){
     console.log(i)
+}  */
+/*
+// For loop in Array
+var numbers = [45, 86, 34, 87, 12, 98, 82, 33, 44]
+for (var i = 0; i < numbers.length; i++){
+    var element = numbers[i]
+    console.log(element)
+} */
+
+var items = ['bottle', 'mobile', 'charger', 'watch', 'book', 'paper']
+for(var i = 0; i < items.length; i++){
+    var item = items[i]
+    console.log(item)
 }
